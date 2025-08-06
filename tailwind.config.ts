@@ -61,7 +61,27 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Healthcare themed colors
+				medical: {
+					blue: 'hsl(var(--medical-blue))',
+					green: 'hsl(var(--medical-green))',
+					teal: 'hsl(var(--medical-teal))'
+				},
+				pharmacy: {
+					orange: 'hsl(var(--pharmacy-orange))'
+				},
+				assessment: {
+					excellent: 'hsl(var(--excellent))',
+					good: 'hsl(var(--good))',
+					moderate: 'hsl(var(--moderate))',
+					needs: 'hsl(var(--needs-work))'
 				}
+			},
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-success': 'var(--gradient-success)',
+				'gradient-hero': 'var(--gradient-hero)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
